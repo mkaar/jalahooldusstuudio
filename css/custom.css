@@ -215,7 +215,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  animation: BottomTotop 9s linear infinite 0s;
+  animation: BottomTotop 15s linear infinite 0s;
 }
 
 .animated-item:nth-child(2n+2) {
@@ -224,6 +224,14 @@ strong {
 
 .animated-item:nth-child(3n+3) {
   animation-delay: 6s;
+}
+
+.animated-item:nth-child(4n+4) {
+  animation-delay: 9s;
+}
+
+.animated-item:nth-child(5n+5) {
+  animation-delay: 12s;
 }
 
 @keyframes BottomTotop {
@@ -255,9 +263,9 @@ strong {
 }
 
 /*---------------------------------------
-  HERO              
+  HERO
 -----------------------------------------*/
-.hero {  
+.hero {
   padding-top: 0rem;
 }
 
@@ -282,7 +290,7 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION              
+  NAVIGATION
 -----------------------------------------*/
 .navbar {
   padding-top: 20px;
