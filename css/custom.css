@@ -293,8 +293,6 @@ strong {
   NAVIGATION
 -----------------------------------------*/
 .navbar {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .navbar-brand {
@@ -322,8 +320,7 @@ strong {
   color: var(--p-color);
   font-weight: var(--font-weight-semibold);
   font-size: var(--menu-font-size);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
 }
 
 .navbar-nav .nav-item.active .nav-link, 
@@ -515,13 +512,10 @@ strong {
   }
 
   .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .navbar-nav .nav-link {
-    padding-top: 5px;
-    padding-bottom: 10px;
+
   }
 
   .hero .container {
